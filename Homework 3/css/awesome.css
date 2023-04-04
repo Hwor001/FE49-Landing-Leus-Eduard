@@ -1,6 +1,5 @@
 .awesome {
   padding: 80px 0;
-  
 }
 .line {  
   width: 64px;
@@ -9,7 +8,7 @@
   margin: auto;
   margin-bottom: 36px;
 }
-.description p{
+.description p {
   text-align: center;
   margin: auto;
   font-family: 'Open Sans';
@@ -56,7 +55,7 @@
   color: #333333;
 }
 
-.awesome-card__text p{
+.awesome-card__text p {
   font-family: 'Open Sans';
   font-weight: 400;
   font-size: 14px;
