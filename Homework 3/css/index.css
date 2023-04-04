@@ -1,5 +1,6 @@
 @import url(./cdn.css);
 @import url(./awesome.css);
+@import url();
 
 *{
    padding: 0;
@@ -25,6 +26,5 @@
    text-align: center;
    text-transform: uppercase;
    margin-bottom: 34px;
-   font-family: 'Raleway';
    color: #212121;
  }
