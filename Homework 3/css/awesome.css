@@ -1,5 +1,5 @@
 .awesome {
-  padding: 86px 0;
+  padding: 80px 0;
   
 }
 .line {  
@@ -13,6 +13,7 @@
   text-align: center;
   margin: auto;
   font-family: 'Open Sans';
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
@@ -23,11 +24,13 @@
 .awesome-wrap {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .awesome-card {
   width: 350px;
   border: 1px none black;
+  margin: 0 15px;
 }
 
 .awesome-card__img {
