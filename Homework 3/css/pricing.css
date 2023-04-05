@@ -28,7 +28,7 @@
    margin: 0 15px;
  }
 
-.pricing-card-title {
+.pricing-card-text {
    line-height: 50px;
    font-family: 'Open Sans';
    font-style: normal;
@@ -40,7 +40,7 @@
    background-color: #333333;
 }
 
-.pricing-card-title-1 {
+.pricing-card-text-1 {
    line-height: 100px;
    font-family: 'Raleway';
    font-style: normal;
@@ -52,7 +52,7 @@
    background-color: #333333;
 }
 
-.pricing-card-title-2 {
+.pricing-card-text-2 {
    line-height: 50px;
    font-family: 'Open Sans';
    font-style: normal;
@@ -64,7 +64,7 @@
    background-color: #333333;
 }
 
-.pricing-card-title-3 {
+.pricing-card-text-3 {
    line-height: 40px;
    font-family: 'Open Sans';
    font-style: normal;
