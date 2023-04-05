@@ -1,0 +1,84 @@
+.pricing {
+   padding: 80px 0;
+   background: #F5F5F5;
+}
+
+.pricing-description p {
+   text-align: center;
+   margin: auto;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 19px;
+   color: #86878B;
+   margin-bottom: 62px;
+  }
+
+.pricing-wrap {
+   margin: 0 -15px;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+ }
+ 
+ .pricing-card {
+   width: 340px;
+   border: 1px none black;
+   margin: 0 15px;
+ }
+
+.pricing-card-title {
+   line-height: 50px;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   text-align: center;
+   margin-bottom: 2px;
+   color: #FFFFFF;
+   background-color: #333333;
+}
+
+.pricing-card-title-1 {
+   line-height: 100px;
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 35px;
+   text-align: center;
+   margin-bottom: 2px;
+   color: #FFFFFF;
+   background-color: #333333;
+}
+
+.pricing-card-title-2 {
+   line-height: 50px;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   text-align: center;
+   margin-bottom: 2px;
+   color: rgba(255, 255, 255, 0.5);
+   background-color: #333333;
+}
+
+.pricing-card-title-3 {
+   line-height: 40px;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   text-align: center;
+   color: #86878B;
+   margin-bottom: 2px;
+}
+
+
+ 
+ 
+ 
+ 
+ 
+ 

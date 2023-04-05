@@ -8,7 +8,7 @@
   margin: auto;
   margin-bottom: 36px;
 }
-.description p {
+.awesome-description p {
   text-align: center;
   margin: auto;
   font-family: 'Open Sans';
@@ -21,9 +21,11 @@
  }
 
 .awesome-wrap {
+  margin: 0 -15px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-bottom: 46px;
 }
 
 .awesome-card {
