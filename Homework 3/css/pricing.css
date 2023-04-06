@@ -75,7 +75,9 @@
    margin-bottom: 2px;
 }
 
-
+.pricing-card-text-3:last-child {
+   margin: 0;
+}
  
  
  
