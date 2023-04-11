@@ -1,6 +1,9 @@
 @import url(./cdn.css);
 @import url(./awesome.css);
 @import url(./pricing.css);
+@import url(./customers.css);
+@import url(./axure.css);
+@import url(./contact.css);
 
 * {
    padding: 0;
@@ -24,6 +27,7 @@
    margin: auto;
    font-family: 'Raleway'; 
    font-size: 36px;
+   font-weight: 400;
    font-style: normal;
    text-align: center;
    text-transform: uppercase;
