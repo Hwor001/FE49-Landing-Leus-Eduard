@@ -36,6 +36,12 @@
    margin-bottom: 2px;
    color: #FFFFFF;
    background-color: #333333;
+   transition: 0.2s;
+}
+
+.pricing-card-text:hover {
+   transform: scale(1.2);
+   transition: 0.2s;
 }
 
 .pricing-card-money {
@@ -48,6 +54,12 @@
    margin-bottom: 2px;
    color: #FFFFFF;
    background-color: #333333;
+   transition: 0.2s;
+}
+
+.pricing-card-money:hover {
+   transform: scale(1.2);
+   transition: 0.2s;
 }
 
 .pricing-card-free {
@@ -60,6 +72,12 @@
    margin-bottom: 2px;
    color: rgba(255, 255, 255, 0.5);
    background-color: #333333;
+   transition: 0.2s;
+}
+
+.pricing-card-free:hover {
+   transform: scale(1.2);
+   transition: 0.2s;
 }
 
 .pricing-card-information {
@@ -72,6 +90,12 @@
    color: #86878B;
    margin-bottom: 2px;
    background-color: #FFFFFF;
+   transition: 0.2s;
+}
+
+.pricing-card-information:hover {
+   transform: scale(1.2);
+   transition: 0.2s;
 }
 
 .pricing-card-text-3:last-child {
