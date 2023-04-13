@@ -3,9 +3,8 @@
    background: #F5F5F5;
 }
 
-.pricing-description p {
+.pricing-description {
    text-align: center;
-   margin: auto;
    font-family: 'Open Sans';
    font-style: normal;
    font-weight: 400;
@@ -39,7 +38,7 @@
    background-color: #333333;
 }
 
-.pricing-card-text-1 {
+.pricing-card-money {
    line-height: 100px;
    font-family: 'Raleway';
    font-style: normal;
@@ -51,7 +50,7 @@
    background-color: #333333;
 }
 
-.pricing-card-text-2 {
+.pricing-card-free {
    line-height: 50px;
    font-family: 'Open Sans';
    font-style: normal;
@@ -63,7 +62,7 @@
    background-color: #333333;
 }
 
-.pricing-card-text-3 {
+.pricing-card-information {
    line-height: 40px;
    font-family: 'Open Sans';
    font-style: normal;
@@ -72,6 +71,7 @@
    text-align: center;
    color: #86878B;
    margin-bottom: 2px;
+   background-color: #FFFFFF;
 }
 
 .pricing-card-text-3:last-child {

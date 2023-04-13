@@ -7,10 +7,24 @@
    position: relative;
 }
 
+.axure-conteiner {
+   position: relative;
+   z-index: 1;
+}
 .axure img {
    width: 100%;
    display: block;
 }
+
+.axure-title::after { 
+   content: '';
+   display: block;
+   margin: auto;
+   width: 64px;
+   height: 2px;
+   background-color:#ffffff;
+   margin-top: 36px;
+ }
 
 .axure:after {
    content: '';
@@ -19,8 +33,7 @@
    left: 0;
    width: 100%;
    height: 100%;
-   background-color: black;
-   opacity: 0.55;
+   background-color: rgba(0, 0, 0, 0.55) ;
 }
 
 .axure-link {
@@ -41,20 +54,11 @@
    margin: auto;
 }
 
-.axure-link span {
-   justify-content: center;
-   text-align: center;
-}
-
 .axure-link:hover {
    color: rgb(0, 0, 0);
-   transition: 0.2s;
+   transition: 0.4s;
    background-color: #FFFFFF;
-}
-
-.axure-title, .axure-description, .axure-line, .axure-link {
-   position: relative;
-   z-index: 1;
+   box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.5);
 }
  
 .axure-title {

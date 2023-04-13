@@ -2,16 +2,15 @@
    padding: 80px 0;
 }
 
-.customers-description p {
+.customers-description {
    text-align: center;
-   margin: auto;
    font-family: 'Open Sans';
    font-style: normal;
    font-weight: 400;
    font-size: 14px;
    line-height: 19px;
    color: #86878B;
-   margin-bottom: 76px;
+   margin-bottom: 34px;
   }
 
 .customers-wrap {
@@ -26,10 +25,10 @@
    margin: 0 15px;
  }
 
-.customers-card-1 {
+.customers-card-information {
    display: flex;
    justify-content: space-around;
-   padding: 22px 0 0 0;
+   align-items: center;
 }
 
 .customers-card__img {
@@ -52,7 +51,7 @@
    width: 100%; 
 }
 
- .customers-card__text p {
+ .customers-card__text {
    font-family: 'Open Sans';
    font-style: normal;
    font-weight: 400;
@@ -64,6 +63,7 @@
    background-color: #E2E2E2;
    color: #86878B;
    border-radius: 7px;
+   margin-bottom: 22px;
    position: relative;
  }
 
@@ -71,29 +71,28 @@
    content: '';
    width: 0;
    height: 0;
+   top: 100%;
    border-left: 14.14px solid transparent;
    border-right: 14.14px solid transparent;
    border-top: 14.14px solid #E2E2E2;
    display: inline-block;
-   margin-left: 40.86px;
+   left: 41px;
    position: absolute;
  }
 
-
-.customers-text h3 {
+.customers-text-name {
    font-family: 'Open Sans';
-   padding: 8px 0 12px 0;
    font-style: normal;
    font-weight: 700;
    font-size: 20px;
    line-height: 27px;
-   display: flex;
-   align-items: center;
    text-align: center;
    color: #333333;
+   display: flex;
+   margin-bottom: 5px;
 }
 
-.customers-text p {
+.customers-text-work {
    font-family: 'Open Sans';
    font-style: normal;
    font-weight: 400;

@@ -1,0 +1,47 @@
+.footer {
+   background-color: black;
+   padding: 30px 0 15px 0;
+}
+
+.footer-wrap {
+   text-align: center;
+   margin: 0 -15px;
+}
+
+.footer-icons {
+   margin-bottom: 18px;
+   height: 23px;
+   border: 1px none black;
+}
+
+.footer-text {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 16px;
+   color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-icons-link {
+   color: rgb(255, 255, 255);
+   font-size: 23px;
+   transition: 0.3s;
+   display: inline-block;
+   margin-right: 11px;
+   margin-left: 11px;
+
+}
+
+.footer-icons-link:hover {
+   transition: 0.5s;
+   color: rgb(0, 0, 0);
+   box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.6);
+   background-color: white;
+   border-radius: 5px;
+}
+
+.fa-copyright {
+   font-size: 10px;
+   color: rgba(255, 255, 255, 0.5);
+}
