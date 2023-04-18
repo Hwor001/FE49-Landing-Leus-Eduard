@@ -4,11 +4,17 @@
 }
 
 .social-wrap {
+   padding: 0 15px;
    display: flex;
    justify-content: space-between;
    align-items: center;
    flex-wrap: wrap;
+   text-align: center;
    margin: 0 -15px;
+}
+
+.social-text {
+   text-align: left;
 }
 
 .social-text h2 {
@@ -22,7 +28,7 @@
 }
 
 .social-text p {
-   width: 365px;
+   max-width: 365px;
    font-family: 'Open Sans';
    font-style: normal;
    font-weight: 400;
@@ -31,7 +37,7 @@
    color: #86878B;
 }
 
-.social-icons-link {
+.fa-facebook-f-aloc {
    margin-left: 40px;
    color: silver;
    font-size: 42px;
@@ -39,7 +45,100 @@
    vertical-align: middle;
 }
 
-.social-icons-link:hover {
+.fa-facebook-f-aloc:hover { 
+   transform: scale(2);
    transition: 0.5s;
    color: black;
+   transform-origin: bottom;
 }
+
+.fa-twitter-aloc {
+   margin-left: 40px;
+   color: silver;
+   font-size: 42px;
+   transition: 0.3s;
+   vertical-align: middle;
+}
+
+.fa-twitter-aloc:hover {
+   transform: scale(2);
+   transition: 0.5s;
+   color: black;
+   transform-origin: top;
+}
+
+.fa-google-plus-g-aloc {
+   margin-left: 40px;
+   color: silver;
+   font-size: 42px;
+   transition: 0.3s;
+   vertical-align: middle;
+}
+
+.fa-google-plus-g-aloc:hover {
+   transform: scale(2);
+   transition: 0.5s;
+   color: black;
+   transform-origin: top right;
+}
+
+.fa-pinterest-aloc {
+   margin-left: 40px;
+   color: silver;
+   font-size: 42px;
+   transition: 0.3s;
+   vertical-align: middle;
+}
+
+.fa-pinterest-aloc:hover {
+   transform: scale(2);
+   transition: 0.5s;
+   color: black;
+   transform-origin: top left;
+}
+
+.fa-instagram-aloc {
+   margin-left: 40px;
+   color: silver;
+   font-size: 42px;
+   transition: 0.3s;
+   vertical-align: middle;
+}
+
+.fa-instagram-aloc:hover {
+   transition: 0.5s;
+   color: black;
+   transform: skew(10deg, 10deg)
+}
+
+.fa-stumbleupon-aloc {
+   margin-left: 40px;
+   color: silver;
+   font-size: 42px;
+   transition: 0.3s;
+   vertical-align: middle;
+   
+}
+
+.fa-stumbleupon-aloc:hover {
+   transition: 0.5s;
+   color: black;
+   transform: rotate(180deg);
+}
+
+.fa-wifi-aloc {
+   transform: rotate(-45deg);
+   margin-left: 40px;
+   color: silver;
+   font-size: 42px;
+   transition: 0.3s;
+   vertical-align: middle;
+}
+
+.fa-wifi-aloc:hover {
+   transition: 0.5s;
+   color: black;
+   transform: rotate(45deg);
+}
+
+
