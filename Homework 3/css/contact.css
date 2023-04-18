@@ -12,7 +12,7 @@
    line-height: 19px;
    color: #86878B;
    margin-bottom: 91px;
-  }
+}
 
 .contact-wrap {
    margin: 0 -15px;
@@ -26,13 +26,13 @@
    justify-content: center;
 }
 
-
 .form {
    display: flex;
    justify-content: space-between;
    margin-bottom: 28px;
    width: 100%;
    max-width: 1170px;
+   flex-grow: 1;
 }
 
 .contact-form, .contact-card-item{
@@ -43,7 +43,8 @@
    display: flex;
    flex-direction: column;
    justify-content: space-between;
-   height: 224px;
+   height: 240px;
+
 }
 
 button[name="contact-button"] {
@@ -71,7 +72,7 @@ button[name="contact-button"]:hover {
 
 textarea[name="message"] {
    border: 0;
-   height: 224px;
+   height: 220px;
    border-bottom: 1px solid #BDBDBD;
    width: 100%;
    resize: none;
@@ -83,10 +84,10 @@ textarea[name="message"] {
    justify-content: center;
    align-items: center;
    position: relative;
- }
+}
  
  .contact-button {
    display: flex;
    justify-content: center;
    align-items: center;
- }
+}
