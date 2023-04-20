@@ -94,3 +94,16 @@ textarea[name="message"] {
 .contact-form-information:last-child {
    margin: 0;
 }
+
+@media screen and (max-width: 1000px) {
+   .form {
+      flex-direction: column;
+   }
+   .contact-card-item {
+      width: 90%;
+   }
+   .contact-form {
+      width: 90%;
+   }
+
+}

@@ -107,3 +107,14 @@
    color: #86878B;
 }
 
+@media screen and (max-width: 654.67px) {
+   .customers-wrap {
+      justify-content: center;
+   }
+   .customers-card {
+      margin-bottom: 20px;
+   }
+   .customers-card:last-child {
+      margin: 0;
+   }
+}

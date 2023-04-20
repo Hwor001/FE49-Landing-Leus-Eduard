@@ -106,7 +106,17 @@
    margin: 0;
 }
  
- 
+@media screen and (max-width: 738.67px) {
+   .pricing-wrap{
+      justify-content: center;
+   }
+   .pricing-card {
+      margin-bottom: 20px;
+   }
+   .pricing-card:last-child {
+      margin-bottom: 0;
+   }
+}
  
  
  

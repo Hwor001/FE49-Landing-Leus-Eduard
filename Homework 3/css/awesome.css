@@ -72,3 +72,15 @@
   color:  #000000;
   text-align: center;
 }
+
+@media screen and (max-width: 758.67px) {
+  .awesome-wrap {
+    justify-content: center;
+  }
+  .awesome-card {
+    margin-bottom: 20px;
+ }
+ .awesome-card:last-child {
+    margin: 0;
+ }
+}

@@ -50,9 +50,3 @@
      margin: 0 5px;
    }
  }
-
- @media screen and (max-width: 300px) {
-   .footer-icons-link {
-     margin: 0px;
-   }
- }
