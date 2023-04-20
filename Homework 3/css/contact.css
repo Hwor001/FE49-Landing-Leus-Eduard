@@ -14,13 +14,6 @@
    margin-bottom: 91px;
 }
 
-.contact-wrap {
-   margin: 0 -15px;
-   display: flex;
-   justify-content: space-between;
-   flex-wrap: wrap;
-}
-
 .contact-button {
    display: flex;
    justify-content: center;
@@ -30,20 +23,11 @@
    display: flex;
    justify-content: space-between;
    margin-bottom: 28px;
-   width: 100%;
-   max-width: 1170px;
-   flex-grow: 1;
-}
-
-.contact-form, .contact-card-item{
-   width: 478px;
 }
 
 .contact-form {
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   height: 240px;
+   width: 40%;
+   margin: 0 15px;
 }
 
 button[name="contact-button"] {
@@ -66,15 +50,23 @@ button[name="contact-button"]:hover {
    color: rgb(255, 255, 255);
    transition: 0.4s;
    background-color: #000000;
-   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
 }
 
 textarea[name="message"] {
    border: 0;
    height: 220px;
+   padding: 5px 5px;
    border-bottom: 1px solid #BDBDBD;
    width: 100%;
    resize: none;
+   outline: none;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 19px;
+   color:#585757;
 }
 
 .contact-container {
@@ -82,11 +74,23 @@ textarea[name="message"] {
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   /* position: relative; */
 }
  
  .contact-button {
    display: flex;
    justify-content: center;
    align-items: center;
+}
+
+.contact-card-item {
+   width: 40%;
+   margin: 0 15px;
+}
+
+.contact-form-information {
+   margin-bottom: 44.17px;
+}
+
+.contact-form-information:last-child {
+   margin: 0;
 }

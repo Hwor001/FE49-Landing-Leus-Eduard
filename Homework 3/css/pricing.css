@@ -42,6 +42,7 @@
 .pricing-card-text:hover {
    transform: scale(1.2);
    transition: 0.2s;
+   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 .pricing-card-money {
@@ -60,6 +61,7 @@
 .pricing-card-money:hover {
    transform: scale(1.2);
    transition: 0.2s;
+   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 .pricing-card-free {
@@ -78,6 +80,7 @@
 .pricing-card-free:hover {
    transform: scale(1.2);
    transition: 0.2s;
+   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 .pricing-card-information {
@@ -96,6 +99,7 @@
 .pricing-card-information:hover {
    transform: scale(1.2);
    transition: 0.2s;
+   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 .pricing-card-text-3:last-child {

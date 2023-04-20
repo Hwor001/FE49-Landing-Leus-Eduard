@@ -1,0 +1,107 @@
+.tabs {
+   padding: 125px 0;
+}
+
+.tab-wrap { 
+   display: flex;
+   justify-content: space-between;
+   margin: 0 -15px;
+}
+
+.header-tab {
+   margin: 0 15px;
+   display: flex;
+   flex-direction: column;
+}
+
+.header-tab--btn {
+   width: 112px;
+   height: 110px;
+   color: #FFFFFF;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 15px;
+   line-height: 20px;
+   text-align: center;
+   text-transform: uppercase;
+   background-color: #333333;
+   border-radius: 4px;
+   transition: 0.3s;
+   margin-bottom: 10px;
+   border: 1px none black
+}
+
+.header-tab--btn:hover {
+   transition: 0.3s;
+   background-color: #EC7979;
+
+}
+
+.content-tab-img {
+   margin: 0 15px;
+}
+
+.content-tab__item {
+   display: flex;
+   justify-content: space-around;
+}
+
+.content-tab__item-information {
+   max-width: 572px;   
+   margin: 0 15px;
+}
+
+.content-tab__item-title {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 27px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   text-transform: uppercase;
+   color: #000000;
+   margin-bottom: 58px;
+
+}
+
+.content-tab__item-text {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 19px;
+   display: flex;
+   align-items: center;
+   text-transform: uppercase;
+   color: #86878B;
+   margin-bottom: 89px;
+}
+
+.content-tab__item-button {
+   width: 135px;
+   height: 42px;
+   border: 1px solid #ffffff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #ffffff;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 15px;
+   line-height: 20px;
+   text-align: center;
+   transition: 0.2s;
+   background-color: #EC7979;
+}
+
+.content-tab__item-button:hover {
+   color: rgb(136, 131, 131);
+   transition: 0.4s;
+   background-color: #000000;
+   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+   transform: scale(1.2);
+}
